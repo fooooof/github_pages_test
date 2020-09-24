@@ -55,7 +55,8 @@ As an example:
     "offset": 0.0
   },
   "biome": "minecraft:savanna"
-},```
+},
+```
 The rivers have an offset value, but I haven't found a pattern with them. It just requires trial and error to get right.
 
 When adding new biomes some things to keep in mind for noise values:
