@@ -1,15 +1,16 @@
 This is a page dedicated to documenting and explaining features and works of Minecraft’s custom world-gen. This will also include helpful links and tutorials on important things.
-Important links
-Minecraft wiki page on custom world-gen
-Aelve’s imitation of vanilla_layered
-Data-pack World-gen discord
-Slicedlime’s reference files
-Tutorials
+## Important links
+[Minecraft wiki page on custom world-gen](https://minecraft.gamepedia.com/Custom_world_generation)
+[Aelve’s imitation of vanilla_layered](https://www.planetminecraft.com/data-pack/imitation-of-vanilla-layered-with-multi-noise-experimental/)
+[Data-pack World-gen discord](https://discord.gg/J49Rwnz)
+[Slicedlime’s reference files](https://github.com/slicedlime/examples)
 
-##How to make a basic biome
+## Tutorials
+
+## How to make a basic biome
 Biomes in datapacks use basic json syntax, so I would suggest learning json beforehand(watch this basic json tutorial). 
 For this tutorial we will be modifying one of slicedlime’s reference files, since these files have very specific  this is usually the easiest way to make biomes. 
-##How to use Aelve’s imitation of vanilla_layered
+## How to use Aelve’s imitation of vanilla_layered
 Essentially the main biomes lie on a 2D grid using odd-numbered temperature and humidity values. Each of these biomes alternates in and on/off pattern between a weirdness value of 0.09 and 0.11. 
 
 If your added biomes don't follow this pattern, you can't add rivers (or at least the rivers won't look good).
