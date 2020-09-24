@@ -1,9 +1,13 @@
 This is a page dedicated to documenting and explaining features and works of Minecraft’s custom world-gen. This will also include helpful links and tutorials on important things.
 ## Important links
 [Minecraft wiki page on custom world-gen](https://minecraft.gamepedia.com/Custom_world_generation)
+
 [Aelve’s imitation of vanilla_layered](https://www.planetminecraft.com/data-pack/imitation-of-vanilla-layered-with-multi-noise-experimental/)
+
 [Data-pack World-gen discord](https://discord.gg/J49Rwnz)
+
 [Slicedlime’s reference files](https://github.com/slicedlime/examples)
+
 
 ## Tutorials
 
@@ -18,7 +22,8 @@ If your added biomes don't follow this pattern, you can't add rivers (or at leas
 To put a river between two biomes, you put the river's values halfway between the two biomes. You can realistically only add rivers between neighbouring biomes in the grid. There is a graph showing where each biome is located in a .xlsx(excel) file.
 
 As an example:
-```{
+```json
+{
   "parameters": {
     "temperature": 0.3,
     "humidity": -0.3,
