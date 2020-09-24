@@ -11,10 +11,10 @@ This is a page dedicated to documenting and explaining features and works of Min
 
 ## Tutorials
 
-## How to make a basic biome
+### How to make a basic biome
 Biomes in datapacks use basic json syntax, so I would suggest learning json beforehand(watch this basic json tutorial). 
 For this tutorial we will be modifying one of slicedlime’s reference files, since these files have very specific  this is usually the easiest way to make biomes. 
-## How to use Aelve’s imitation of vanilla_layered
+### How to use Aelve’s imitation of vanilla_layered
 Essentially the main biomes lie on a 2D grid using odd-numbered temperature and humidity values. Each of these biomes alternates in and on/off pattern between a weirdness value of 0.09 and 0.11. 
 
 If your added biomes don't follow this pattern, you can't add rivers (or at least the rivers won't look good).
